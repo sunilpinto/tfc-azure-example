@@ -15,7 +15,7 @@ variable "location" {
   default     = "eastus"
 }
 locals {
-  change = "trigger a change"
+  changeling = "trigger a change"
 }
 locals {
   base_name = "${var.prefix}web"
