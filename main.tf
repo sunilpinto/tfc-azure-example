@@ -14,7 +14,9 @@ variable "location" {
   description = "(Optional) Region for Azure resources, defaults to East US."
   default     = "eastus"
 }
-
+locals {
+  change = "trigger a change"
+}
 locals {
   base_name = "${var.prefix}web"
   change = "trigger-4"
